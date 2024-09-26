@@ -1,6 +1,6 @@
 # Python program to swap two variables
 
-x = 5000
+x = 2000
 y = 1000
 
 # To take inputs from the user
@@ -8,9 +8,8 @@ y = 1000
 #y = input('Enter value of y: ')
 
 # create a temporary variable and swap the values
-temp = x
-x = y
-y = temp
+temp = 
+
 
 print('The value of x after swapping: {}'.format(x))
 print('The value of y after swapping: {}'.format(y))
