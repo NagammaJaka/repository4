@@ -8,7 +8,9 @@ y = 1000
 #y = input('Enter value of y: ')
 
 # create a temporary variable and swap the values
-temp = 
+temp = x
+x = y
+y= temp
 
 
 print('The value of x after swapping: {}'.format(x))
