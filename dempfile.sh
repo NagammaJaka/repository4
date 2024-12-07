@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Print a message
-echo "Hello, Jenkins!"
+echo "Hello, Jenkins! how are you i am fine"
 
 # Create a directory
 mkdir -p /tmp/jenkins-example
