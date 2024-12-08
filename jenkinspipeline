@@ -1,0 +1,19 @@
+pipeline {
+    agent any // Use any available agent
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'https://github.com/your-username/your-repository.git'
+            }
+        }
+        stage('Run Commands') {
+            steps {
+                sh 'echo "Hello, Jenkins!"'
+                sh 'ls -l' // List files in the workspace
+            }
+        }
+       stage('test commnd'){
+           steps{
+             sh 'echo "tested commnd"'
+    }
+}
