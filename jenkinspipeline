@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/your-repository.git'
+                git branch: 'main', url: 'https://github.com/NagammaJaka/repository4.git'
             }
         }
         stage('Run Commands') {
